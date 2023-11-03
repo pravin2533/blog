@@ -1,0 +1,12 @@
+<%- include("partials/header") %>
+<h1>India</h1>
+<p> <%= homecontent %></p>
+<%# parameter in inside the function is singular version of array %>
+<% array.forEach(function(element){%>
+  <%console.log(element.tit)%>
+<%})%>
+
+
+
+<%- include("partials/footer") %>
+<%# "rs" is used to restart the server node.js %>
